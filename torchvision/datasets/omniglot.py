@@ -3,7 +3,7 @@ from PIL import Image
 from os.path import join
 import os
 import torch.utils.data as data
-from .utils import download_url, check_integrity, list_dir, list_files
+from utils import download_url, check_integrity, list_dir, list_files
 
 
 class Omniglot(data.Dataset):
